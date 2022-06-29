@@ -1,0 +1,14 @@
+  
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800"><?php echo $title?></h1>    
+    </div>      
+
+</div>
+               
+
+ 
+
+<img class="img-profile rounded-circle"
+                                    src="<?php echo base_url('assets/photo/').$this->session->userdata('photo')?>">
+   
